@@ -1,0 +1,10 @@
+This project requires you to demostrate secured RESTful communications for FastAPI based python web application. 
+
+You will need create at least two FastAPI applications:
+* Each application needs to support both HTTP and HTTPS. For development environment, the applicaiton should be able to handle not-signed certificates. 
+* Build a trusted connection between above two FastAPI application. For example, app1 and app2, use PKI cert to ensure app2 only accepts HTTP/HTTPS requests from app1, and rejects any calls from other clients. 
+
+A successful delivery should include:
+* Full working code base
+* Unit Tests
+* Readme.md
